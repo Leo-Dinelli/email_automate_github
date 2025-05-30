@@ -12,7 +12,7 @@ def enviar_email():
     msg = email.message.Message()
     msg["Subject"] = "Teste de e-mail automatizado - Servidor Python"
     msg["From"] = login
-    msg["To"] = "mayladinelli@gmail.com"
+    msg["To"] = login
 
     email_body = """<p>Olá,<p>
      <p>Este é um teste de automação via servidor<p>
