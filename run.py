@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-import teste_email
+from teste_email import main
+main()
