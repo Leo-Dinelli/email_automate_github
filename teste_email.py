@@ -31,8 +31,11 @@ def enviar_email():
     print('Email enviado com sucesso')
     return
 
-if __name__ == "__main__":
+def main():
     try:
         enviar_email()
     except Exception as e:
         print(f'Error: {e}')
+        
+if __name__ == "__main__":
+    main()
